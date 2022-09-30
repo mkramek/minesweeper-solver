@@ -1,0 +1,47 @@
+.input {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1px;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 1rem;
+}
+
+.buttons button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+}
+
+.summary_btn {
+    font-size: 1.5rem;
+    padding: .5rem 1.25rem;
+    margin-top: .5rem;
+}
+
+.summary_btn:first-of-type {
+    background-color: olivedrab;
+}
+
+.summary_btn:first-of-type:hover {
+    background-color: darkgreen;
+}
+
+.summary_btn:nth-of-type(2),
+.summary_btn:nth-of-type(3) {
+    background-color: orange;
+}
+
+.summary_btn:nth-of-type(2):hover,
+.summary_btn:nth-of-type(3):hover {
+    background-color: orangered;
+}
+
+.results {
+    font-family: monospace;
+}
